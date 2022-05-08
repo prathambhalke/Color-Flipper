@@ -1,0 +1,40 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container #holder{
+    background-color: black;
+    padding: 20px 100px;
+    margin: 10px 0px;
+    border: 5px double black;
+    color: rgb(255, 255, 255);
+    border-radius: 12px;
+}
+
+.container #holder p{
+    font-size: 15px;
+    font-weight: 200px;
+    color: inherit;
+}
+
+.container #btn{
+    border:rgb(red, green, blue);
+    padding: 20px 70px;
+    cursor: pointer;
+    background-color: rgb(210, 72, 72);
+    font-size: 30px;
+    border-radius: 4px;
+    font-weight: 130px;
+}
+.container .btn:hover{
+    background-color: black;
+    color: white;
+
+}
